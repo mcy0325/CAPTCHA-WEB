@@ -1,0 +1,30 @@
+{
+  "name": "captcha-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcy0325/CAPTCHA-WEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcy0325/CAPTCHA-WEB/issues"
+  },
+  "homepage": "https://github.com/mcy0325/CAPTCHA-WEB#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "playwright": "^1.53.2"
+  }
+}
